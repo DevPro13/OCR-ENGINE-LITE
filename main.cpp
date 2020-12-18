@@ -65,5 +65,6 @@ int main(){
 system("clear");
 
 }
+delete(ch);
     return 0;
 }

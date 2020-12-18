@@ -181,7 +181,6 @@ void camera(){
 Mat processImage(Mat& rawimg,const char* key){
     Mat rgb;
     pyrDown(rawimg, rgb);
-    rgb=sharpen(rgb);
     cvtColor(rgb,grayRawImg, COLOR_BGR2GRAY);
     // morphological gradient
     Mat grad;
