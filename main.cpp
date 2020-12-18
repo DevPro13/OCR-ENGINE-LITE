@@ -63,8 +63,7 @@ int main(){
    }
    baseStr="./ocr ";
 system("clear");
-
-}
 delete(ch);
+}
     return 0;
 }
