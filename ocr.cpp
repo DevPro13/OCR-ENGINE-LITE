@@ -1,10 +1,4 @@
-/*__________________________________________________________________________________________________
-  Written by,
-  Akanksha Giri
-  Dev Raj Parajuli
-  __________________________________________________________________________________________________
-  
-*/ 
+ 
 #include<stdlib.h>
 #include<vector> 
 #include<string>
@@ -248,12 +242,7 @@ int main(int c,char **v){
        }
         processImage(rawimg,"u");
         for(auto i=textregion_rects.rbegin();i!=textregion_rects.rend();++i){
-         //namedWindow("window",WINDOW_NORMAL);
-         //imshow("window",*i); 
-         //waitKey(0); 
-        //condect ocr on cropped images
-        ocr(*i); 
-        //cout<<ocrOutStr<<endl;    
+         ocr(*i); 
   }
   system("rm ocr.txt");
     //destroyAllWindows();
@@ -284,4 +273,10 @@ int main(int c,char **v){
     cin.get();
  return 0;
 }
-
+/*__________________________________________________________________________________________________
+  Written by,
+  Akanksha Giri
+  Dev Raj Parajuli
+  __________________________________________________________________________________________________
+  
+*/
