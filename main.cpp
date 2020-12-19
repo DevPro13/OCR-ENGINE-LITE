@@ -52,11 +52,10 @@ int main(){
        cout<<"Images files in this directory::\n\n";
        string st="ls *\".jpg\" *\".png\" *\".jpeg\"";
        system(st.data());
-       string fname;
        cout<<"\nEnter filename::[example or example.jpg.]::"<<endl;
-       cin>>fname;
+       cin>>st;
        concat("s");
-      system(concat(fname).data());
+      system(concat(st).data());
    }
    if(*ch=='q'){
        exit(1);

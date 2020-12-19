@@ -23,7 +23,6 @@ using namespace cv;
 #define WINDOW_NAME  "Img_window" //for window name
 #define WEBCAM_WINDOW "webcam||Press c to capture or ESC ko exit!!!!!!"
 class OCR{
-    public:
     string parNodeName;//parnode
     string filename;//child node
     string textContent;//child
